@@ -73,3 +73,10 @@ If your notebook or script requires additional libraries, ensure compatibility w
 
 For any issues, visit the [QuantConnect Documentation](https://www.quantconnect.com/docs/home/home) or utilize the community forums for assistance.
 
+---
+
+## Final Notes
+
+This is the **first quantitative trading model** I’ve ever built, and it remains a **work in progress**. I welcome any feedback or suggestions on how to improve its structure, performance, or overall approach.
+
+The model’s output and evaluation results are saved in accompanying `.json` and `.csv` files for easy review. Thank you for taking the time to explore this project!
