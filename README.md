@@ -1,4 +1,4 @@
-# QuantConnect Project Setup
+# Basic QuantConnect RNN Trading Strategy
 
 This project contains two primary files for algorithm development and research analysis on the QuantConnect Cloud Platform:
 
