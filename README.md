@@ -38,6 +38,10 @@ The `main.py` script (`WalkForwardRnnTradingStrat`) executes the trading strateg
 
 This setup creates a pipeline where models are periodically retrained on expanding historical data in `research.ipynb`, and the live/backtesting algorithm (`main.py`) dynamically loads and uses the appropriate pre-trained model based on the current date.
 
+## Known Issues (Work In Progress)
+
+The current implementation shows signs of potentially overfitting the historical data. This is suggested by QuantConnect's analysis, which identifies 29 strategy parameters. A large number of parameters can make a strategy overly sensitive to the specific historical data it was trained or optimized on, potentially leading to poor performance on new, unseen data. Further investigation and potential simplification of the model or feature set are planned to address this concern and improve the strategy's robustness.
+
 ## Setup Instructions
 
 Follow these steps to set up and run this project on QuantConnect:
@@ -91,4 +95,4 @@ For any issues, visit the [QuantConnect Documentation](https://www.quantconnect.
 ## Final Notes
 
 This project demonstrates a walk-forward RNN trading strategy implementation on QuantConnect. The separation into research (training) and main (execution) files allows for systematic model updates and testing. Feedback and suggestions are welcome.
-The model’s output and evaluation results are saved in accompanying `.json` and `.csv` files for easy review. Thank you for taking the time to explore this project!
+The model’s output and evaluation results are saved in accompanying `.json` and `.csv` files for easy review. This is my first quantative trading strategy I have built. Thank you for taking the time to explore this project!
