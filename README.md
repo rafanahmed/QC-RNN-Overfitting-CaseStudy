@@ -96,4 +96,4 @@ For any issues, visit the [QuantConnect Documentation](https://www.quantconnect.
 
 This project demonstrates a walk-forward RNN trading strategy implementation on QuantConnect. The separation into research (training) and main (execution) files allows for systematic model updates and testing. Feedback and suggestions are welcome.
 The model’s output and evaluation results are saved in accompanying `.json` and `.csv` files for easy review. This is my first quantative trading strategy I have built. Thank you for taking the time to explore this project!
-a
+
