@@ -1,0 +1,82 @@
+2009-12-02 00:00:00 Launching analysis for 3ee3adf1328322765554ab8eed65d990 with LEAN Engine v2.5.0.0.17077
+2009-12-02 00:00:00 Attempting to load scaler and weights from ObjectStore at 2010-01-01 00:00:00...
+2009-12-02 00:00:00 Successfully loaded scaler from ObjectStore key: 'rnn_strategy/scaler.pkl'
+2009-12-02 00:00:00 Successfully loaded weights from ObjectStore key: 'rnn_strategy/weights.pkl'
+2009-12-02 00:00:00 Warmup period set to 21 bars.
+2009-12-02 00:00:00 Accurate daily end-times now enabled by default. See more at https://qnt.co/3YHaWHL. To disable it and use legacy daily bars set self.settings.daily_precise_end_time = False.
+2009-12-02 00:00:00 Algorithm starting warm up...
+2010-01-04 11:00:00 Algorithm finished warming up.
+2010-01-04 16:00:00 2010-01-04 16:00:00 - Entry condition met. Attempting SetHoldings for SPY. Prediction: 0.2149. Volatility: 0.0069 (within range). Target: 1.0
+2010-01-05 16:00:00 2010-01-05 16:00:00 - Exit signal condition met (Pred: -0.1933 <= Threshold: 0.0005). Consecutive days: 1.
+2010-01-06 16:00:00 2010-01-06 16:00:00 - Exit signal condition met (Pred: -0.1255 <= Threshold: 0.0005). Consecutive days: 2.
+2010-01-06 16:00:00 2010-01-06 16:00:00 - Exit condition met (2+ days). Attempting Liquidate for SPY. Prediction: -0.1255. Exit Signal Days: 2
+2010-01-06 16:00:00 Warning: all market orders sent using daily data, or market orders sent after hours are automatically converted into MarketOnOpen orders.
+2010-01-07 16:00:00 2010-01-07 16:00:00 - Entry condition met. Attempting SetHoldings for SPY. Prediction: 0.1325. Volatility: 0.0062 (within range). Target: 1.0
+2010-01-11 16:00:00 2010-01-11 16:00:00 - Exit signal condition met (Pred: -0.1966 <= Threshold: 0.0005). Consecutive days: 1.
+2010-01-12 16:00:00 2010-01-12 16:00:00 - Exit signal reset (Pred: 0.2136 > Threshold: 0.0005).
+2010-01-13 16:00:00 2010-01-13 16:00:00 - Exit signal condition met (Pred: -0.0207 <= Threshold: 0.0005). Consecutive days: 1.
+2010-01-14 16:00:00 2010-01-14 16:00:00 - Exit signal condition met (Pred: -0.2688 <= Threshold: 0.0005). Consecutive days: 2.
+2010-01-14 16:00:00 2010-01-14 16:00:00 - Exit condition met (2+ days). Attempting Liquidate for SPY. Prediction: -0.2688. Exit Signal Days: 2
+2010-01-15 16:00:00 2010-01-15 16:00:00 - Entry condition met. Attempting SetHoldings for SPY. Prediction: 0.1716. Volatility: 0.0071 (within range). Target: 1.0
+2010-01-20 16:00:00 2010-01-20 16:00:00 - Exit signal condition met (Pred: -0.4037 <= Threshold: 0.0005). Consecutive days: 1.
+2010-01-21 16:00:00 2010-01-21 16:00:00 - Exit signal reset (Pred: 0.3405 > Threshold: 0.0005).
+2010-01-25 16:00:00 2010-01-25 16:00:00 - Exit signal condition met (Pred: -0.0992 <= Threshold: 0.0005). Consecutive days: 1.
+2010-01-26 16:00:00 2010-01-26 16:00:00 - Exit signal condition met (Pred: -0.2186 <= Threshold: 0.0005). Consecutive days: 2.
+2010-01-26 16:00:00 2010-01-26 16:00:00 - Exit condition met (2+ days). Attempting Liquidate for SPY. Prediction: -0.2186. Exit Signal Days: 2
+2010-01-27 16:00:00 2010-01-27 16:00:00 - Entry condition met. Attempting SetHoldings for SPY. Prediction: 0.2336. Volatility: 0.0097 (within range). Target: 1.0
+2010-02-02 16:00:00 2010-02-02 16:00:00 - Exit signal condition met (Pred: -0.2984 <= Threshold: 0.0005). Consecutive days: 1.
+2010-02-03 16:00:00 2010-02-03 16:00:00 - Exit signal reset (Pred: 0.0608 > Threshold: 0.0005).
+2010-02-08 16:00:00 2010-02-08 16:00:00 - Exit signal condition met (Pred: -0.2305 <= Threshold: 0.0005). Consecutive days: 1.
+2010-02-09 16:00:00 2010-02-09 16:00:00 - Exit signal reset (Pred: 0.2502 > Threshold: 0.0005).
+2010-02-11 16:00:00 2010-02-11 16:00:00 - Exit signal condition met (Pred: -0.2282 <= Threshold: 0.0005). Consecutive days: 1.
+2010-02-12 16:00:00 2010-02-12 16:00:00 - Exit signal condition met (Pred: -0.2198 <= Threshold: 0.0005). Consecutive days: 2.
+2010-02-12 16:00:00 2010-02-12 16:00:00 - Exit condition met (2+ days). Attempting Liquidate for SPY. Prediction: -0.2198. Exit Signal Days: 2
+2010-02-16 16:00:00 2010-02-16 16:00:00 - Entry condition met. Attempting SetHoldings for SPY. Prediction: 0.2940. Volatility: 0.0129 (within range). Target: 1.0
+2010-02-18 16:00:00 2010-02-18 16:00:00 - Exit signal condition met (Pred: -0.2580 <= Threshold: 0.0005). Consecutive days: 1.
+2010-02-19 16:00:00 2010-02-19 16:00:00 - Exit signal condition met (Pred: -0.2313 <= Threshold: 0.0005). Consecutive days: 2.
+2010-02-19 16:00:00 2010-02-19 16:00:00 - Exit condition met (2+ days). Attempting Liquidate for SPY. Prediction: -0.2313. Exit Signal Days: 2
+2010-02-22 16:00:00 2010-02-22 16:00:00 - Entry condition met. Attempting SetHoldings for SPY. Prediction: 0.1460. Volatility: 0.0107 (within range). Target: 1.0
+2010-02-24 16:00:00 2010-02-24 16:00:00 - Exit signal condition met (Pred: -0.1438 <= Threshold: 0.0005). Consecutive days: 1.
+2010-02-25 16:00:00 2010-02-25 16:00:00 - Exit signal condition met (Pred: -0.2899 <= Threshold: 0.0005). Consecutive days: 2.
+2010-02-25 16:00:00 2010-02-25 16:00:00 - Exit condition met (2+ days). Attempting Liquidate for SPY. Prediction: -0.2899. Exit Signal Days: 2
+2010-02-26 16:00:00 2010-02-26 16:00:00 - Entry condition met. Attempting SetHoldings for SPY. Prediction: 0.1585. Volatility: 0.0108 (within range). Target: 1.0
+2010-03-02 16:00:00 2010-03-02 16:00:00 - Exit signal condition met (Pred: -0.2786 <= Threshold: 0.0005). Consecutive days: 1.
+2010-03-03 16:00:00 2010-03-03 16:00:00 - Exit signal condition met (Pred: -0.1785 <= Threshold: 0.0005). Consecutive days: 2.
+2010-03-03 16:00:00 2010-03-03 16:00:00 - Exit condition met (2+ days). Attempting Liquidate for SPY. Prediction: -0.1785. Exit Signal Days: 2
+2010-03-04 16:00:00 2010-03-04 16:00:00 - Entry condition met. Attempting SetHoldings for SPY. Prediction: 0.1706. Volatility: 0.0097 (within range). Target: 1.0
+2010-03-08 16:00:00 2010-03-08 16:00:00 - Exit signal condition met (Pred: -0.2566 <= Threshold: 0.0005). Consecutive days: 1.
+2010-03-09 16:00:00 2010-03-09 16:00:00 - Exit signal reset (Pred: 0.0759 > Threshold: 0.0005).
+2010-03-11 16:00:00 2010-03-11 16:00:00 - Exit signal condition met (Pred: -0.0065 <= Threshold: 0.0005). Consecutive days: 1.
+2010-03-12 16:00:00 2010-03-12 16:00:00 - Exit signal reset (Pred: 0.0599 > Threshold: 0.0005).
+2010-03-16 16:00:00 2010-03-16 16:00:00 - Exit signal condition met (Pred: -0.2316 <= Threshold: 0.0005). Consecutive days: 1.
+2010-03-17 16:00:00 2010-03-17 16:00:00 - Exit signal condition met (Pred: -0.0533 <= Threshold: 0.0005). Consecutive days: 2.
+2010-03-17 16:00:00 2010-03-17 16:00:00 - Exit condition met (2+ days). Attempting Liquidate for SPY. Prediction: -0.0533. Exit Signal Days: 2
+2010-03-18 16:00:00 2010-03-18 16:00:00 - Entry condition met. Attempting SetHoldings for SPY. Prediction: 0.1084. Volatility: 0.0052 (within range). Target: 1.0
+2010-03-22 16:00:00 2010-03-22 16:00:00 - Exit signal condition met (Pred: -0.0045 <= Threshold: 0.0005). Consecutive days: 1.
+2010-03-23 16:00:00 2010-03-23 16:00:00 - Exit signal condition met (Pred: -0.1917 <= Threshold: 0.0005). Consecutive days: 2.
+2010-03-23 16:00:00 2010-03-23 16:00:00 - Exit condition met (2+ days). Attempting Liquidate for SPY. Prediction: -0.1917. Exit Signal Days: 2
+2010-03-24 16:00:00 2010-03-24 16:00:00 - Entry condition met. Attempting SetHoldings for SPY. Prediction: 0.2400. Volatility: 0.0046 (within range). Target: 1.0
+2010-03-29 16:00:00 2010-03-29 16:00:00 - Exit signal condition met (Pred: -0.2650 <= Threshold: 0.0005). Consecutive days: 1.
+2010-03-30 16:00:00 2010-03-30 16:00:00 - Exit signal reset (Pred: 0.1648 > Threshold: 0.0005).
+2010-04-01 16:00:00 2010-04-01 16:00:00 - Exit signal condition met (Pred: -0.0592 <= Threshold: 0.0005). Consecutive days: 1.
+2010-04-05 16:00:00 2010-04-05 16:00:00 - Exit signal reset (Pred: 0.0658 > Threshold: 0.0005).
+2010-04-06 16:00:00 2010-04-06 16:00:00 - Exit signal condition met (Pred: -0.0452 <= Threshold: 0.0005). Consecutive days: 1.
+2010-04-07 16:00:00 2010-04-07 16:00:00 - Exit signal reset (Pred: 0.0265 > Threshold: 0.0005).
+2010-04-09 16:00:00 2010-04-09 16:00:00 - Exit signal condition met (Pred: -0.1297 <= Threshold: 0.0005). Consecutive days: 1.
+2010-04-12 16:00:00 2010-04-12 16:00:00 - Exit signal condition met (Pred: -0.1071 <= Threshold: 0.0005). Consecutive days: 2.
+2010-04-12 16:00:00 2010-04-12 16:00:00 - Exit condition met (2+ days). Attempting Liquidate for SPY. Prediction: -0.1071. Exit Signal Days: 2
+2010-04-13 16:00:00 2010-04-13 16:00:00 - Entry condition met. Attempting SetHoldings for SPY. Prediction: 0.0906. Volatility: 0.0045 (within range). Target: 1.0
+2010-04-14 16:00:00 2010-04-14 16:00:00 - Exit signal condition met (Pred: -0.0501 <= Threshold: 0.0005). Consecutive days: 1.
+2010-04-15 16:00:00 2010-04-15 16:00:00 - Exit signal condition met (Pred: -0.2421 <= Threshold: 0.0005). Consecutive days: 2.
+2010-04-15 16:00:00 2010-04-15 16:00:00 - Exit condition met (2+ days). Attempting Liquidate for SPY. Prediction: -0.2421. Exit Signal Days: 2
+2010-04-16 16:00:00 2010-04-16 16:00:00 - Entry condition met. Attempting SetHoldings for SPY. Prediction: 0.2077. Volatility: 0.0061 (within range). Target: 1.0
+2010-04-20 16:00:00 2010-04-20 16:00:00 - Exit signal condition met (Pred: -0.3137 <= Threshold: 0.0005). Consecutive days: 1.
+2010-04-21 16:00:00 2010-04-21 16:00:00 - Exit signal reset (Pred: 0.1246 > Threshold: 0.0005).
+2010-04-23 16:00:00 2010-04-23 16:00:00 - Exit signal condition met (Pred: -0.2541 <= Threshold: 0.0005). Consecutive days: 1.
+2010-04-26 16:00:00 2010-04-26 16:00:00 - Exit signal reset (Pred: 0.0490 > Threshold: 0.0005).
+2010-04-29 16:00:00 2010-04-29 16:00:00 - Exit signal condition met (Pred: -0.3844 <= Threshold: 0.0005). Consecutive days: 1.
+2010-04-30 16:00:00 2010-04-30 16:00:00 - Exit signal reset (Pred: 0.1921 > Threshold: 0.0005).
+2010-05-04 16:00:00 2010-05-04 16:00:00 - Exit signal condition met (Pred: -0.3391 <= Threshold: 0.0005). Consecutive days: 1.
+2010-05-05 16:00:00 2010-05-05 16:00:00 - Exit signal reset (Pred: 0.2376 > Threshold: 0.0005).
+2010-05-10 16:00:00 2010-05-10 16:00:00 - Exit signal condition met (Pred: -0.2379 <= Threshold: 0.0005). Consecutive days: 1.
+You currently have a maximum of 10kb of log data per backtest, and 10kb total max per day. Have you tried step-by-step debugging? See more at https://qnt.co/debugging or upgrade your organization type for more logs at https://www.quantconnect.com/pricing
