@@ -1,4 +1,4 @@
-# Case Study: Overfitting an RNN Trading Strategy on QuantConnect
+# QuantConnect Walk-Forward RNN Trading Strategy (Case Study: Overfitting in Quant Models)
 
 This project showcases a Recurrent Neural Network (RNN)-based trading strategy built on QuantConnect using walk-forward training methodology. While technically sound in its structure, this strategy **ultimately failed** due to overfitting—a common but critical pitfall in quantitative modeling.
 
@@ -11,6 +11,8 @@ This repository now serves as both a working example and a **cautionary case stu
 A complete breakdown of this strategy's design and its failure points is documented in the accompanying PDF:
 
 **📎 [Balancing ML Models in Quantitative Trading (2).pdf](./Balancing%20ML%20Models%20in%20Quantitative%20Trading%20(2).pdf)**
+
+This case study and the accompanying slideshow were presented to an audience at the **University of North Carolina at Charlotte's College of Computing and Informatics**.
 
 The presentation covers:
 - What went wrong
