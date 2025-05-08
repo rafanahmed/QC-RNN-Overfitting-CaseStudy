@@ -12,7 +12,10 @@ A complete breakdown of this strategy's design and its failure points is documen
 
 **📎 [Balancing ML Models in Quantitative Trading (2).pdf](./Balancing%20ML%20Models%20in%20Quantitative%20Trading%20(2).pdf)**
 
-This case study and the accompanying slideshow were presented to an audience at the **University of North Carolina at Charlotte's College of Computing and Informatics**.
+This case study and the accompanying slideshow were presented to an audience at the **University of North Carolina at Charlotte's College of Computing and Informatics**:
+[Presentation LinkedIn Post](https://www.linkedin.com/feed/update/urn:li:activity:7324323890187415553/)
+
+
 
 The presentation covers:
 - What went wrong
